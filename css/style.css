@@ -676,4 +676,5 @@ a:focus, a:hover {
 .iconLabel{
     padding:5px;
     font-family: 'Dosis',sans-serif;
+    font-weight: 300;
 }
