@@ -674,5 +674,6 @@ a:focus, a:hover {
     background: none;
 }
 .iconLabel{
-    padding:2px;
+    padding:5px;
+    font-family: 'Dosis',sans-serif;
 }
