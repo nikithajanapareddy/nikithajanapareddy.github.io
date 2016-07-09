@@ -41,9 +41,6 @@
   50% { padding-top: 2.5em; }
   100% { padding-top: 2em; }
 }*/
-body {
-    cursor: url(nikki.ico);
-}
 
 html {
     width: 100%;
@@ -51,7 +48,7 @@ html {
 }
 
 body {
-    background-image: url(Images/white.png);
+    background-image: url(../Images/white.png);
     background-color: #fff;
     background-size: cover;
     background-position: center center;
