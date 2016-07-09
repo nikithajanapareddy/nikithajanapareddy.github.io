@@ -673,4 +673,6 @@ a:focus, a:hover {
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
     background: none;
 }
-
+.iconLabel{
+    padding:2px;
+}
