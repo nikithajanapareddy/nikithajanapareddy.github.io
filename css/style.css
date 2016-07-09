@@ -388,7 +388,13 @@ hr {
     z-index: 0;
     opacity: 1;
 }
-
+@media (min-width: 400px){
+.image > .img-responsive {
+    margin:0px;
+    margin:0 auto;
+    padding:0px;
+}
+}
 .image > .img-responsive {
     margin:0px;
     margin:0 auto;
