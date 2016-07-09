@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src="js/script.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false">
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet"><!-- JQUERY PLUGIN -->
+    <!-- BOX LAYOUT RESOURCES
+  <link href="../favicon.ico" rel="shortcut icon">
+  <link href="css/component.css" rel="stylesheet" type="text/css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,400italic' rel='stylesheet' type='text/css'>
+    <title>Nikitha Janapareddy</title>
+    <link href="nikki.ico" rel="icon" type="image/vnd.microsoft.icon"><!-- Ends here -->
+
+    <style>
+
+    .projectRow{
+    width:50%;
+    }
+
+    </style>
+    <script>
+    function initMap() {
+    var myLatLng = {lat:37.566138,lng:-122.318388};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+    });
+    }
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
+    <script src="jquery.js" type="text/javascript">
+    </script>
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background: rgba(0, 0, 0, 0.78);">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a href=''><img alt="nikki" class="log" height="90px" src="p.gif" width="90px"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav navbar-right" id="example">
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#education">Education</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#projects">Work</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container" id="body-part">
+        <div class="about-section" id="about">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>ABOUT</h2>
+                    <hr class="star-primary">
+                    <div class="col-lg-4 col-md-4 col-sm-4 image"><img alt="Nikki" class="img-responsive" height="250" src="nikki_image.gif" width="250"></div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 aboutme">
+                        <p align="center">Hi, There! I am Nikitha - a Developer and Data Science Enthusiast. I've recently moved to the Bay Area holding a Master's in Software Engineering from India. I am passionate about learning new technologies and implementing them in my projects. Starting my career as a Python Developer in a start-up Stockroom, I also began getting my hands wet in Web development, Data-analysis, web-scraping and also building recommendation systems. I built this website to hone my web development skills. Please take a look at some of my projects to better understand my skillset. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Education Section -->
+        <div class="education-section" id="education">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="thumbnail">
+                        <h2>EDUCATION DETAILS</h2>
+                        <hr class="star-primary">
+                        <!--<img alt="VIT" src="vit.jpg">-->
+                        <div class="caption">
+                            <p>I graduated from VIT University with Master's Degree in Software Engineering. CGPA : 3.52/4</p><br>
+                            COURSES
+                            <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Information and System Security</td>
+                                    
+                                        <td>Artificial Intelligence and Intelligent Systems</td>
+                                    
+                                        <td>Open source programming</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Services and Service Oriented Architecture</td>
+                                    
+                                        <td>Object Oriented Analysis and Design</td>
+                                    
+                                        <td>Software Testing</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data Structures and Algorithms</td>
+                                    
+                                        <td>Principles of User Interface Design</td>
+                                    
+                                        <td>Design Patterns</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Knowledge Management</td>
+                                    
+                                        <td>Database Management Systems</td>
+                                    
+                                        <td>Software Testing</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Projects Section -->
+        <div class="project-grid" id="projects">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 projectRow stateFul" id="row1">
+                    <div class="bl-box1">
+                        <h2 class="bl-icon">Resume Ranking System</h2>
+                    </div>
+                    <div class="bl-content1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>Resume Ranking System</h2>
+                        <hr class="star-primary">
+                        <p>Developed a resume ranking predictor system for LinkedIn resumes. Developed a recommendation system that suggests relevant positions to candidates in the Stockroom web application. This also involved writing a generic parser that extracts skills from resumes through NLP.</p><span class="bl-icon-close1"><i aria-hidden="true" class="fa fa-times fa-2x"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 projectRow stateFul" id="row2">
+                    <div class="bl-box1">
+                        <h2 class="bl-icon">Twitter Analytics On Brand Sales</h2>
+                    </div>
+                    <div class="bl-content1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>Twitter Analytics On Brand Sales</h2>
+                        <hr class="star-primary">
+                        <p>Developed and implemented a project to analyze and generate customer insights into brand sales such as trending tweets w.r.t to a brand, overall brand sentiment and competitor data. It was built using python.</p><span class="bl-icon-close1"><i aria-hidden="true" class="fa fa-times fa-2x"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 projectRow stateFul" id="row3">
+                    <div class="bl-box1">
+                        <h2 class="bl-icon">Online Publication House System</h2>
+                    </div>
+                    <div class="bl-content1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>Online Publication House System</h2>
+                        <hr class="star-primary">
+                        <p>Simulated few basic security aspects like password encryptions and role based access control mechanisms in a Book House Publication System as a part of academic project using Php and MySql.</p><span class="bl-icon-close1"><i aria-hidden="true" class="fa fa-times fa-2x"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 projectRow stateFul" id="row4">
+                    <div class="bl-box1">
+                        <h2 class="bl-icon">Profile Manager</h2>
+                    </div>
+                    <div class="bl-content1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>Profile Manager</h2>
+                        <hr class="star-primary">
+                        <p>Built a social networking web-application which matches different students based on their taste in books, TV shows, music and movies. Developed using HTML, PHP & MySql.</p>
+                        <div class="bl-icon-close1">
+                            <i aria-hidden="true" class="fa fa-times fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Skills Section -->
+        <div class="skills-section" id="skills">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <hr class="star-primary">
+                    <div class="skillscontent">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="skill-images center-block"><img class="center-block img-responsive log" height="90px" src="images/python.png"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="skill-description">I have used python for web scraping, cleaning and manipulating large datasets, recommendation systems and backend web development.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="skill-images center-block"><img class="center-block img-responsive log" height="90px" src="images/css3_logo.png"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="skill-description">I use html, css and bootstrap to create responsive web-designs.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="skill-images center-block"><img class="center-block img-responsive log" height="90px" src="images/octocat.png"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="skill-description">I have experience collaberating with team members using GitHub</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="skill-images center-block"><img class="center-block img-responsive log" height="90px" src="images/javascript-logo.png"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="skill-description">I am starting to go more indepth into front-end so I've been taking classes in codeschool on Javascript!</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div><!--end skills content section-->
+                </div>
+            </div>
+        </div><!-- Contact Section -->
+        <div class="contact-section" id="contact">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>CONTACT ME</h2>
+                    <hr class="star-primary">
+                    <div>
+                    <p>Nikitha Janapareddy</p>
+                    <p>603 E, Fifth Avenue, #7 San Mateo, CA - 94402</p><i class="fa fa-phone">&nbsp; 650-660-3451</i>
+                    </br>
+                        
+                    <i class="fa fa-envelope-o email" aria-hidden="true">&nbsp<a class="mail" href="mailto:nikitha.janapareddy@gmail.com">nikitha.janapareddy@gmail.com</a></i>
+                    </div>    
+                    <div class="resume" id="resume">
+                        <a href="https://drive.google.com/file/d/0B87C0zj1lwIJTkhuTnJwdGtUaFE/view?usp=sharing" target="_blank">Resume</a>
+                    </div>
+                    <div class="icons">
+                        <ul class="social-network social-circle">
+                            <li>
+                                <a class="icoFacebook" href="https://www.facebook.com/nikki.janapareddy" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="icoGithub" href="https://github.com/nikithajanapareddy" title="Github"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a class="icoLinkedin" href="https://www.linkedin.com/in/nikitha-janapareddy" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a class="icoTwitter" href="https://twitter.com/NJanapareddy" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  <div class = "map">
+                      <div id="map">
+                          
+                      <script async defer
+                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDsd-h6Flb2NEovlVL5KuQD2DlSBhahJs&callback=initMap">
+                      </script></div>
+                     </div>  -->
+                </div>
+            </div>
+        </div><!--</div>-->
+    </div>
+</body>
+</html>
