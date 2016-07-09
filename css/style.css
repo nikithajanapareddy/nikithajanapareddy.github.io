@@ -678,3 +678,7 @@ a:focus, a:hover {
     font-family: 'Dosis',sans-serif;
     font-weight: 300;
 }
+.tableName{
+    padding-top:12px;
+    padding-bottom:12px;
+}
