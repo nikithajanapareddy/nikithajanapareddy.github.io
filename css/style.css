@@ -681,4 +681,6 @@ a:focus, a:hover {
 .tableName{
     padding-top:12px;
     padding-bottom:12px;
+    font-size:larger;
+    font-weight: 350;
 }
