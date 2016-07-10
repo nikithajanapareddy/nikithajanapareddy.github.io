@@ -374,7 +374,7 @@ hr {
     z-index: 100;
 }
 
-.bl-content1 p {
+.bl-content1 div {
     padding-top: 100px;
     margin: 0 0 10px;
     font-size: x-large;
