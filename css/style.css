@@ -376,8 +376,12 @@ hr {
 
 .bl-content1 div {
     
-    margin: 0 0 10px;
-    font-size: x-large;
+    margin: 0 0 20px 0;
+    padding: 0px;
+    font-size: 2rem;
+    font-weight: 300;
+    /* width: 500px; */
+    word-wrap: break-word;
 }
 
 .bl-content1 h2 {
