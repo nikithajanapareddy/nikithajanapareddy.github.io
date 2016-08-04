@@ -713,7 +713,7 @@ a:focus, a:hover {
 
 @keyframes zoop-horizontal{
   0%{width: 0px;}
-  100%{width: 200px;}
+  100%{width: 300px;}
 }
 @keyframes zoop-vertical{
   0%{height: 0px;}
