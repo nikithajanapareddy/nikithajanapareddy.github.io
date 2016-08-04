@@ -644,7 +644,7 @@ a:focus, a:hover {
 }
  */
 #resume,#resume a {
-    width: 200px;
+    width: 300px;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -737,7 +737,7 @@ a:focus, a:hover {
 }
 
 #resume,#resume a {
-    width: 200px;
+    width: 300px;
     height: 60px;
     line-height: 60px;
     text-align: center;
